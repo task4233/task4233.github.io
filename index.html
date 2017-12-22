@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Introducuction</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/kinesin.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <span><a class="button" href="#greeting">Introduction</a></span>
+            <div id="smart-menu">
+                <a href="#!">
+                    Menu
+                </a>
+            </div>
+            <div id="main-menu" class="off">
+                <ul class="slide-inner">
+                    <li><a href="#introduction" class="button">Introduction</a></li>
+                    <li><a href="#favorite" class="button">My Favorite</a></li>
+                    <li><a href="#skills" class="button">Special Skills</a></li>
+                    <li><a href="#boom" class="button">My Boom</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!--
+    <div id="modal" class="modal-wrapper">
+        <div class="modal-main">
+            <div id="modal-form">
+                <h2>名前を教えてね！</h2>
+                <form id="form" action="#">
+                    <input id="form-name" class="form-control" type="text" name="name" placeholder="Name">
+                    <div id="submit-btn" class="submit-btn">Enter</div>
+                    <div id="skip-btn" class="submit-btn">Skip</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    -->
+    
+    <div id="bgimage1">
+    <section id="greeting">
+        <h1 id="flag">Welcome to My Page<span>!</span></h1>
+        <p class="display">ここはtask4233のページです.</p>
+        <p id="day-message"></p>
+        <p>自己紹介は下にスクロールするか</p>
+        <p>上のサブメニューを使ってみてね！</p>
+    </section>
+    </div>
+
+    <section id="introduction">
+        <h1>Introduction</h1>
+        <span>ざっくりとした自己紹介</span>
+        <table>
+            <tr>
+                <td>Writer</td>
+                <td>クソザコ情報系大学生</td>
+            </tr>
+            <tr>
+                <td>出身地</td>
+                <td>某所</td>
+            </tr>
+            <tr>
+                <td>サークル</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td>高校時の部活</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td>好きなもの</td>
+                <td>興味を惹かれるもの全般</td>
+            </tr>
+            <tr>
+                <td>嫌いなもの</td>
+                <td>つまらなそうなもの全般</td>
+            </tr>
+        </table>
+        <a id="link-b" href="introduction.html">もっと詳しく知ってみたい人はこちら！</a>
+        
+    </section>
+    <div id=bgimage2>
+        <section id="favorite">
+            <h1>My Favorite</h1>
+            <span>趣味</span>
+            <p>
+                趣味は漫画やアニメを見たり、音楽を聴いたりすることです。
+            </p>
+            <p>
+                最近はそんなにやっていませんが、ゲームもします。
+            </p>
+            <p>
+                これらの詳しい内容は下のリンクからどうぞ。
+            </p>
+            <p class='btn' id='linkf'>More Details...</p>
+            <a id="link-w" href="favorite.html">詳しくはこちら！</a>
+        </section>
+    </div>
+
+    <section id="skills">
+        <h1>Special Skills</h1>
+        <span>特技</span>
+        <p>特技:速く歩くこと。</p>
+        <p> 趣味でウォーキングをしていたことが功を奏したのか、
+            <br> 気がついたときには早くなってました。
+            <br> 趣味でウォーキングを始めたのは、
+            <br> 高校生2年生の頃にほとんど運動していなかったことから、
+            <br> 気軽にできる運動をしようと思ったことがきっかけ。
+            <br> 直近のウォーキングでは、4,5時間もかかったが、
+            <br> 往復で20kmほど歩いた。
+            <br>
+        </p>
+        <p class="btn" id='links'>More Details...</p>
+    </section>
+
+    <div id="bgimage3">
+        <section id="boom">
+            <h1>My Boom</h1>
+
+            
+            <span>最近ハマってること</span>
+            <p>最近ハマってることはProgateというプログラミング学習サービスです。<br> このProgateというサイトでは、基本的なHTMLやCSSから始まり、
+                <br> SwiftやRuby on railsなどについても学ぶことができます。<br> ただし、C言語については扱っていないのが残念です。
+                <br> 最近のお気に入りの言語はRubyとpythonです。
+                <br> これらの言語は、書いていると見た目がきれいになりやすく、
+                <br> わかりやすいので好みです。
+            </p>
+            <p>また、<a href="resourse.html" style="color: skyblue">今回のページ作成に使用したリソースをまとめておきました。</a><br>もしよければ見ていってくださいね！</p>
+            <p class="btn" id="linkb">More Details...</p>
+
+        </section>
+    </div>
+
+
+    <p id="top"><a href="#greeting">↑</a></p>
+
+    <footer>
+                <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="正当なCSSです!" />
+    </a>
+        </p>
+        <small>Copyright &copy;task4233 All rights reserved.</small>
+    </footer>
+
+    <script src="js/lks.js"></script>
+</body>
+
+</html>
